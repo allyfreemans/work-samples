@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="homework2.makejar" default="makejar" basedir=".">
+  <target name ="makejar" description="Create a jar for the homework2 project">
+    <jar jarfile="scheduler.jar" includes="*.class" basedir="bin"></jar>
+  </target>
+</project>

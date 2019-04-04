@@ -1,0 +1,10 @@
+    processcount 5 # Read 5 processes
+runfor 60 # Run for 15 time units
+use       rr # Can be fcfs, sjf, or rr
+   quantum   10 # Time quantum – only if using rr
+   process name   FlashPlayerUpdater.bnd arrival 3 burst 5
+process name Firefox.exe  arrival 2 burst 9
+process name Java.exe   arrival 15    burst 23
+process name    Steam.exe arrival 20 burst 15
+ process name Discord.exe    arrival 5 burst 5
+end

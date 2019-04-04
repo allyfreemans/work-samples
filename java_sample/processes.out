@@ -1,0 +1,33 @@
+5 processes
+Using Round-Robin
+Quantum 10
+
+Time 0: IDLE
+Time 1: IDLE
+Time 2: Firefox.exe arrived
+Time 2: Firefox.exe selected (burst 9)
+Time 3: FlashPlayerUpdater.bnd arrived
+Time 5: Discord.exe arrived
+Time 10: FlashPlayerUpdater.bnd selected (burst 5)
+Time 15: FlashPlayerUpdater.bnd finished
+Time 15: Java.exe arrived
+Time 15: Discord.exe selected (burst 5)
+Time 20: Discord.exe finished
+Time 20: Steam.exe arrived
+Time 20: Java.exe selected (burst 23)
+Time 30: Steam.exe selected (burst 15)
+Time 40: Firefox.exe selected (burst 1)
+Time 41: Firefox.exe finished
+Time 41: Java.exe selected (burst 13)
+Time 51: Steam.exe selected (burst 5)
+Time 56: Steam.exe finished
+Time 56: Java.exe selected (burst 3)
+Time 59: Java.exe finished
+Time 59: IDLE
+Finished at time 60
+
+FlashPlayerUpdater.bnd wait 7 turnaround 12
+Firefox.exe wait 30 turnaround 39
+Java.exe wait 21 turnaround 44
+Steam.exe wait 21 turnaround 36
+Discord.exe wait 10 turnaround 15
