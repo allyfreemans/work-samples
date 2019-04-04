@@ -1,6 +1,4 @@
-# The Sobel Edge Detector (Assignment 1)
-
-Robot Vision (CAP 4453)
+# The Sobel Edge Detector
 
 Sobel.c takes an input pgm file and computes the edges using Sobel. 
 
